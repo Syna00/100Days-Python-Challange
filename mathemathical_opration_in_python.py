@@ -15,5 +15,10 @@ print(2 ** 3)
 
 print(3 * 3 + 3 / 3 - 3)
 
-
+#modulo berfungsi untuk mencari sisa hasil bagi
+number_to_check = int(input("masukin angka kamu: "))
+if number_to_check % 2 == 0:
+    print("angka kamu adalah genap")
+else:
+    print("angka kamu adalah ganjil")
 
