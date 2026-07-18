@@ -1,7 +1,7 @@
 print("Welcome to Python Seblak Deliveries!")
-size = input("Ukurannya mau yang seberapa? ada ukuran S, M sama L : ")
-sayur = input("Pake sayur ga? Y or N: ")
-ekstra_keju = input("Mau ekstra keju gak? Y or N: ")
+size = input("Ukurannya mau yang seberapa? ada ukuran S, M sama L : ").lower()
+sayur = input("Pake sayur ga? Y or N: ").lower()
+ekstra_keju = input("Mau ekstra keju gak? Y or N: ").lower()
 
 # todo: work out how much they need to pay based on their size choice.
 bill = 0

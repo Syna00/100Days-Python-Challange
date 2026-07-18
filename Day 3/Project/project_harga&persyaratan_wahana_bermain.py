@@ -1,6 +1,6 @@
 print("Selamat datang di wahana bermain kami!")
 tinggi_badan = int(input("Tinggi badan kamu berapa? "))
-
+bill = 0
 #if berfungsi untuk mengecek apakah tinggi badan memenuhi syarat atau tidak
 if tinggi_badan >= 150:
     print("Selamat datang di wahana air, Kamu bisa naik wahana ini!")
