@@ -84,7 +84,6 @@ while not at_goal():
     else:
         move()
 
-
 #infinite loop
 def turn_right():
     turn_left()
