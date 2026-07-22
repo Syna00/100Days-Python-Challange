@@ -21,7 +21,3 @@ for letter in chosen_word:
     else:
         display += "_"
 print(display)
-
-added = ""
-for repeat in display:
-    if repeat ==  
